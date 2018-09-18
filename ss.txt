@@ -1,0 +1,26 @@
+CentOS6/Debian6/Ubuntu14 ShadowsocksR一键部署管理脚本：
+
+yum -y install wget
+
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+
+备用脚本：
+
+yum -y install wget
+
+
+ ShadowsocksR账号 配置信息：
+
+ I  P	    : 139.180.194.244
+ 端口	    : 2333
+ 密码	    : Aa17603609610
+ 加密	    : aes-256-cfb
+ 协议	    : auth_sha1_v4_compatible
+ 混淆	    : plain
+ 设备数限制 : 0(无限)
+ 单线程限速 : 0 KB/S
+ 端口总限速 : 0 KB/S
+ SS    链接 : ss://YWVzLTI1Ni1jZmI6QWExNzYwMzYwOTYxMEAxMzkuMTgwLjE5NC4yNDQ6MjMzMw 
+ SS  二维码 : http://doub.pw/qr/qr.php?text=ss://YWVzLTI1Ni1jZmI6QWExNzYwMzYwOTYxMEAxMzkuMTgwLjE5NC4yNDQ6MjMzMw
+ SSR   链接 : ssr://MTM5LjE4MC4xOTQuMjQ0OjIzMzM6YXV0aF9zaGExX3Y0OmFlcy0yNTYtY2ZiOnBsYWluOlFXRXhOell3TXpZd09UWXhNQQ 
+ SSR 二维码 : http://doub.pw/qr/qr.php?text=ssr://MTM5LjE4MC4xOTQuMjQ0OjIzMzM6YXV0aF9zaGExX3Y0OmFlcy0yNTYtY2ZiOnBsYWluOlFXRXhOell3TXpZd09UWXhNQQ 
